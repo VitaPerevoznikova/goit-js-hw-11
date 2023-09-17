@@ -14,10 +14,10 @@ export function markupGallery(searchResults) {
         comments,
         downloads,
       }) => {
-        return `<div class="photo-card"><div class="img_wrap">
+        return `<div class="photo-card"> 
     <a href="${largeImageURL}">
       <img class="photo-img" src="${webformatURL}" alt="${tags}" width ="300" height="300" loading="lazy" />
-    </a></div>
+    </a>
     <div class="info">
       <p class="info-item"><b>Likes</b><br />
         ${likes}
