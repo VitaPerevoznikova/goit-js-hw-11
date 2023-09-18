@@ -34,8 +34,6 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
 }
 .search-form {
   position: fixed;
@@ -142,6 +140,7 @@ button:active {
 }
 .photo-card:hover,
 .photo-card:focus {
-  -webkit-transform: rotate(2deg);
-  transform: rotate(2deg);
+  -webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
+
